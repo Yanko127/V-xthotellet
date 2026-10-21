@@ -1,10 +1,9 @@
 package VäxtHotellExaminering;
 
-// INTERFACE: Plant lovar att växterna följer kontraktet Waterable.
-// ARV: den abstrakta basklassen samlar det som alla växter har gemensamt.
+// INTERFACE
+// ARV
 public abstract class Plant implements Waterable {
-    // INKAPSLING: fälten är privata och läses genom getters.
-    // final betyder att värdena inte kan bytas efter konstruktionen.
+    // INKAPSLING
     private final String name;
     private final double heightInMeters;
 
@@ -21,7 +20,7 @@ public abstract class Plant implements Waterable {
         return heightInMeters;
     }
 
-    // POLYMORFISM: varje konkret växttyp ger metoderna sin egen kod.
+    // POLYMORFISM
     @Override
     public abstract double calculateDailyLiters();
 
