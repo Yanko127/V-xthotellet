@@ -1,6 +1,5 @@
 package VäxtHotellExaminering;
 
-// Samlade texter gör att inga strängar behöver skrivas direkt i logiken.
 public final class Texts {
     public static final String LANGUAGE_TAG = "sv-SE";
     public static final String TITLE = "Växthotellet Greenest";
@@ -12,7 +11,6 @@ public final class Texts {
     public static final String MINERAL_WATER = "mineralvatten";
     public static final String PROTEIN_DRINK = "proteindryck";
 
-    // Klassen används bara för konstanter, inte för att skapa objekt.
     private Texts() {
     }
 }
