@@ -1,6 +1,6 @@
 package VäxtHotellExaminering;
 
-// ARV: en CarnivorousPlant är en Plant.
+// ARV
 public class CarnivorousPlant extends Plant {
     private static final double BASE_LITERS = 0.1;
     private static final double LITERS_PER_METER = 0.2;
@@ -9,7 +9,7 @@ public class CarnivorousPlant extends Plant {
         super(name, heightInMeters);
     }
 
-    // POLYMORFISM: köttätande växter använder basnivå plus höjdtillägg.
+    // POLYMORFISM
     @Override
     public double calculateDailyLiters() {
         return BASE_LITERS + LITERS_PER_METER * getHeightInMeters();
