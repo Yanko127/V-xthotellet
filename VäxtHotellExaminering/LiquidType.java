@@ -1,12 +1,12 @@
 package VäxtHotellExaminering;
 
-// ENUM: vätsketypen kan bara vara ett av dessa tre alternativ.
+// ENUM
 public enum LiquidType {
     TAP_WATER(Texts.TAP_WATER),
     MINERAL_WATER(Texts.MINERAL_WATER),
     PROTEIN_DRINK(Texts.PROTEIN_DRINK);
 
-    // INKAPSLING: visningsnamnet är privat och kan inte bytas ut.
+    // INKAPSLING
     private final String displayName;
 
     LiquidType(String displayName) {
